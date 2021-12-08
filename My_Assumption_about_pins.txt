@@ -1,0 +1,17 @@
+My assumption for connecting pins b/w  MT29F1G01AAADD and STM32F4Discovery:
+
+
+
+STM32F4Discovery        MT29F1G01AAADD
+PB_15 MOSI==================SI/SO0
+PB_14 MISO=================SO/SO1
+PB_13 SCK===================SCK
+===========================WP#/SO2(HIGH)
+===========================CS#(LOW)
+============================HOLD#/SO3(HIGH)
+
+
+
+
+
+
